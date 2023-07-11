@@ -1,4 +1,7 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+
 export default function Navbar() {
   return (
     <div>
@@ -7,9 +10,13 @@ export default function Navbar() {
         <img src='https://www.linkpicture.com/q/HL.png' className='logo' alt='image' />
       </a>      
       <div className="links">
+      <a href="https://github.com/bobbyy16/Hyper-List">
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
         <a href="/">Home</a>
         <a href="/companies">Companies</a>
         <a href="/open-source">Open-source</a>
+        <a href="/docs">Docs</a>
       </div>
       </nav>      
     </div>

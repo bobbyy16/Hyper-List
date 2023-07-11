@@ -14,16 +14,16 @@ function Footer() {
         Find companies in different cities Of India and Open source projects.
         <div className="footer-contact">Contact us</div>
         <div className="footer-icons">
-          <a href="https://twitter.com/bobsstwt">
+          <a className='footer-icons-items' href="https://twitter.com/bobsstwt">
             <FontAwesomeIcon icon={faTwitter} />
           </a>
-          <a href="https://github.com/bobbyy16">
+          <a className='footer-icons-items' href="https://github.com/bobbyy16">
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a href="https://www.linkedin.com/in/abhishek-k-7597771ba/">
+          <a className='footer-icons-items' href="https://www.linkedin.com/in/abhishek-k-7597771ba/">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
-          <a href="mailto:info@example.com">
+          <a className='footer-icons-items' href="mailto:info@example.com">
             <FontAwesomeIcon icon={faEnvelope} />
           </a>
         </div>
