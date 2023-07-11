@@ -5,6 +5,9 @@
   margin: 0;
   font-family: "Quicksand";
   color: #fff;
+}
+
+body{
   background-color: #111;
 }
 
@@ -36,11 +39,39 @@
   margin: 40px auto;
   padding: 20px;
 }
-
-
-/* Home */
-
 .logo {
   padding-left: 10px;
   height: 25px;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #EA3B3B;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: large;
+}
+
+.footer-box {
+  margin: 20px;
+  text-align: center;
+}
+
+.footer-contact {
+  padding: 10px;
+}
+
+.footer-icons {
+  padding-bottom: 10px;
+}
+
+.footer-icons-items {
+  padding: 10px;
+}
+
+.footer-bottom {
+
 }
