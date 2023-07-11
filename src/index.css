@@ -11,12 +11,13 @@
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 600px;
+  max-width: 100%;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
+  position: sticky;
 }
 .navbar h1 {
-  color:#8728ed;
+  color:#EA3B3B;
 }
 .navbar .links {
   margin-left: auto;
@@ -27,10 +28,18 @@
   padding: 6px;
 }
 .navbar a:hover {
-  color:#8728ed;
+  color:#EA3B3B;
 }
 .content {
   max-width: 600px;
   margin: 40px auto;
   padding: 20px;
+}
+
+
+/* Home */
+
+.logo {
+  padding-left: 10px;
+  height: 25px;
 }
