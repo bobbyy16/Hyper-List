@@ -16,7 +16,7 @@ export default function Navbar() {
         <a href="/">Home</a>
         <a href="/companies">Companies</a>
         <a href="/open-source">Open-source</a>
-        <a href="/docs">Docs</a>
+        <a href="/docs" className='navbar-docs'>Docs</a>
       </div>
       </nav>      
     </div>

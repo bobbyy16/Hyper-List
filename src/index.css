@@ -30,6 +30,7 @@ body{
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
+  transition: all .1s;
 }
 .navbar a:hover {
   color:#EA3B3B;
@@ -42,6 +43,10 @@ body{
 .logo {
   padding-left: 10px;
   height: 25px;
+}
+
+.navbar-docs {
+  border: 1px solid #EA3B3B;
 }
 
 /* Footer */
