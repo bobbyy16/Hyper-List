@@ -110,28 +110,50 @@ body{
 
 
 .why-should-we-do-this {
+  display: flex;
+  align-items: flex-start;
   padding: 2rem;
   border-radius: 4px;
-  text-align: center;
+}
+
+.image-container {
+  margin-right: 2rem;
+}
+
+.why-should-we-do-this img {
+  margin-left: 60%;
+  margin-top: 20%;
+  height: 400px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25%;
 }
 
 .title {
   font-size: 2rem;
   margin-bottom: 1rem;
-  text-align: center;
 }
 
 .description {
   font-size: 1.2rem;
-  text-align: center;
-  margin: 0 30% 2rem 30%;
+  margin-bottom: 2rem;
+}
+
+.benefits {
+  margin-top: 1rem;
+}
+
+.benefits-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .benefits-list {
-  list-style: none;
   padding: 0;
   margin: 0;
-
 }
 
 .benefit-item {
@@ -140,32 +162,44 @@ body{
 }
 
 .contributors-section {
+  display: flex;
+  align-items: center;
   margin-top: 2rem;
 }
 
-.contributors-title {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+.image-container-contributors{
+  margin-right: 30%;
 }
 
-.contributors-description {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
+.content-contributors {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8%;
+  margin-right: 2rem;
 }
 
-.learn-more-button {
-  background-color: #2196f3;
+.m-1{
+  margin-left: 20%;
+}
+.btn-orange{
+  background-color: #EA3B3B;
   color: white;
   border: none;
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
   border-radius: 4px;
   cursor: pointer;
+  margin-right: 1rem;
+  text-decoration: none; 
+  display: inline-block; 
+  box-shadow: 2px 2px  #3a383858;
+  transition: all .2s;
 }
 
-.learn-more-button:hover {
+.btn-orange:hover {
   transform: translateY(2%);
 }
+
 
 
 /* Footer */

@@ -1,4 +1,6 @@
 import React from 'react';
+import why from '../assets/why.jpg'
+import openSource from '../assets/openSource.jpg'
 
 const HomePage = () => {
 
@@ -15,33 +17,48 @@ const HomePage = () => {
         </div>
       </header>
       <div className="why-should-we-do-this">
+  <div className="image-container">
+    <img src={why} alt="Company" className="company-image" />
+  </div>
+  <div className="content">
+    <div>
       <h2 className="title">Why Should We Use This?</h2>
-      <p className="description">It offers a comprehensive and user-friendly platform to explore companies in India. It provides valuable insights into the diverse business landscape, allowing us to discover a wide range of industries, sizes, and locations of companies operating in India</p>
+      <p className="description">
+        It offers a comprehensive and user-friendly platform to explore companies in India. It provides valuable insights into
+        the diverse business landscape, allowing us to discover a wide range of industries, sizes, and locations of companies
+        operating in India.
+      </p>
+    </div>
+    <div className="benefits">
       <ul className="benefits-list">
-        <li className="benefit-item">
-            Comprehensive Company Information
-        </li>
-        <li className="benefit-item">
-            Simplified Exploration
-        </li>
-        <li className="benefit-item">
-            Direct link to companies carrer pages
-        </li>
-        <li className="benefit-item">
-            Easy access to open source projects
-        </li>
+        <li className="benefit-item">Comprehensive Company Information</li>
+        <li className="benefit-item">Simplified Exploration</li>
+        <li className="benefit-item">Direct link to companies' career pages</li>
+        <li className="benefit-item">Easy access to open source projects</li>
       </ul>
     </div>
-    <div className="contributors-section">
-      <h2 className="contributors-title">Contributors</h2>
-      <p className="contributors-description">
-        Great things are never created in isolation. Thanks to our amazing contributors, we've brought this product to life.
-        With your valuable support, we can continue to enhance and improve it further. If you're a developer or a tech enthusiast,
-        we welcome your collaboration and ideas to create an even better experience for everyone. We are excited to hear from you!
+  </div>
+</div>
+
+
+<div className="why-should-we-do-this">
+  <div className="content-contributors">
+    <div className='m-1'>
+      <h2 className="title">Dear Contributors</h2>
+      <p className="description">
+      We know that open source projects rely on the contributions of many people, and we are grateful for your willingness to give your time and skills to this project. Your contributions have helped to improve the code, fix bugs, and add new features.We are always looking for ways to improve our project, and we welcome your feedback and suggestions. If you have any ideas for how we can make the project better, please don't hesitate to share them with us.
       </p>
-        <a href="" className="learn-more-button">Learn More</a>
+      <a href="https://github.com/bobbyy16/Hyper-List/blob/main/CONTRIBUTOR.md" className='btn-orange'>Learn More</a>
     </div>
-    </div>
+  </div>
+  <div className="image-container-contributors">
+    <img src={openSource} alt="Company" className="company-image" />
+  </div>
+</div>
+
+
+
+</div>
   );
 };
 
