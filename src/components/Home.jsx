@@ -1,10 +1,14 @@
 import React from 'react';
 import why from '../assets/why.jpg'
 import openSource from '../assets/openSource.jpg'
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 const HomePage = () => {
 
   return (
+    <>
+        <Navbar/>
     <div className="home-page">
       <header className="hero-section">
         <h1 className="hero-title">Find Companies in India</h1>
@@ -39,8 +43,6 @@ const HomePage = () => {
     </div>
   </div>
 </div>
-
-
 <div className="why-should-we-do-this">
   <div className="content-contributors">
     <div className='m-1'>
@@ -55,10 +57,10 @@ const HomePage = () => {
     <img src={openSource} alt="Company" className="company-image" />
   </div>
 </div>
-
-
-
 </div>
+<Footer/>
+    </>
+    
   );
 };
 

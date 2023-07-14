@@ -200,7 +200,31 @@ body{
   transform: translateY(2%);
 }
 
+/* not found */
 
+.not-found {
+  text-align: center;
+  padding-top: 8%;
+  height: 60vh;
+
+
+}
+
+.not-found h1 {
+  text-transform: uppercase;
+  font-size: 72px;
+  color: #EA3B3B;
+}
+
+.not-found h4 {
+  font-size: 50px;
+  color: #EA3B3B;
+}
+
+.not-found p {
+  font-size: 24px;
+  color: #666;
+}
 
 /* Footer */
 

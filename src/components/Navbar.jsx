@@ -1,8 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-
-
+import { Link} from 'react-router-dom';
 
 export default function Navbar() {
   return (
@@ -14,10 +13,10 @@ export default function Navbar() {
       <div className="links">
       <a href="https://github.com/bobbyy16/Hyper-List">
             <FontAwesomeIcon icon={faGithub} />
-          </a>
-        <a href="/">Home</a>
+      </a>
+        <a href="/" >Home</a>
         <a href="/companies">Companies</a>
-        <a href="/open-source">Open-source</a>
+        <a href="/open-source">Open-Source</a>
         <a href="/docs" className='navbar-docs'>Docs</a>
       </div>
       </nav>      
