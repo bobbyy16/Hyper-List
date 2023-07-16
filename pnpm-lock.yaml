@@ -13,6 +13,9 @@ dependencies:
   '@fortawesome/react-fontawesome':
     specifier: ^0.2.0
     version: 0.2.0(@fortawesome/fontawesome-svg-core@6.4.0)(react@18.2.0)
+  json-loader:
+    specifier: ^0.5.7
+    version: 0.5.7
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -1296,6 +1299,10 @@ packages:
     dependencies:
       argparse: 2.0.1
     dev: true
+
+  /json-loader@0.5.7:
+    resolution: {integrity: sha512-QLPs8Dj7lnf3e3QYS1zkCo+4ZwqOiF9d/nZnYozTISxXWCfNs9yuky5rJw4/W34s7POaNlbZmQGaB5NiXCbP4w==}
+    dev: false
 
   /json-schema-traverse@0.4.1:
     resolution: {integrity: sha512-xbbCH5dCYU5T8LcEhhuh7HJ88HXuW3qsI3Y0zOZFKfZEHcpWiHU/Jxzk629Brsab/mMiHQti9wMP+845RPe3Vg==}

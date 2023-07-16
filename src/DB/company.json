@@ -1,0 +1,19 @@
+[
+    {
+        "company_name" : "Infosys",
+        "category": "companies",
+        "image" : "https://pasteboard.co/iM0352SLuR19.png",
+        "description" : "Nice place to work",
+        "link": "www.google.com",
+        "carrers" : "www.twitter.com"
+   },
+   {
+        "company_name" : "vlc",
+        "category": "open-source",
+        "image" : "https://ibb.co/27QvCz2",
+        "description" : "Nice place to work",
+        "link": "www.google.com",
+        "carrers" : "www.twitter.com",
+        "github" : "www.github.com"
+    }
+]
