@@ -231,6 +231,7 @@ body{
 
 .card-container {
   margin-top: 30px;
+  margin-bottom: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -265,7 +266,7 @@ body{
 .card a {
   display: block;
   margin-bottom: 5px;
-  color: blue;
+  color: #EA3B3B;
   text-decoration: none;
 }
 
@@ -303,6 +304,4 @@ body{
   padding: 10px;
 }
 
-.footer-bottom {
 
-}

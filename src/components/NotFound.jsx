@@ -11,6 +11,7 @@ function NotFound() {
       <h1>404</h1>
       <p>Page Not Found</p>
         <h4>This is not the webpage you are looking for</h4>
+        <a href="/" className='btn-orange'>Go to Home page</a>
     </div>
       <Footer/>
     </div>

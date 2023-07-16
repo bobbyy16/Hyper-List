@@ -2,15 +2,16 @@
     {
         "company_name" : "Infosys",
         "category": "companies",
-        "image" : "https://pasteboard.co/iM0352SLuR19.png",
+        "image" : "https://cdn-ukwest.onetrust.com/logos/8d84415b-1b52-4bc4-8d5f-ca9a8eccaf8a/f7db8968-fc22-4620-92ac-dc05c5d2aa15/02460a41-565e-4cac-80a7-449bc8f77a72/logo-infosys.png",
         "description" : "Nice place to work",
         "link": "www.google.com",
-        "carrers" : "www.twitter.com"
+        "carrers" : "www.twitter.com",
+        "location" : "Mysore, Karnataka"
    },
    {
         "company_name" : "vlc",
         "category": "open-source",
-        "image" : "https://ibb.co/27QvCz2",
+        "image" : "https://download.logo.wine/logo/VLC_media_player/VLC_media_player-Logo.wine.png",
         "description" : "Nice place to work",
         "link": "www.google.com",
         "carrers" : "www.twitter.com",

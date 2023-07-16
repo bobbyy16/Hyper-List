@@ -17,6 +17,7 @@ function Companies() {
             <p>{company.description}</p>
             <a href={company.link}>Visit Website</a>
             <a href={company.carrers}>Careers</a>
+            <p>{company.location}</p>
           </div>
         ))}
       </div>
