@@ -8,12 +8,31 @@
         "carrers" : "https://www.infosys.com/careers/",
         "location" : "Mysore, Karnataka"
    },
+   
+   {
+    "company_name" : "L & T technology services",
+    "category": "companies",
+    "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-jKbQ1uLfxOnpz_7brz76Dg8QVi1JwkNEWYj4mNQtxvly7ycsLKO4Y-tQE-W2SIcXuKU&usqp=CAU",
+    "description" : "L&T Electrical & Automation (E&A) Mysore facility, located in the state of Karnataka in South India.",
+    "link": "https://www.ltts.com/careers/job-opportunities/Mysuru",
+    "carrers" : "https://www.ltts.com/careers",
+    "location" : "Mysore, Karnataka"
+    },
+
    {
         "company_name" : "vlc",
         "category": "open-source",
-        "image" : "https://download.logo.wine/logo/VLC_media_player/VLC_media_player-Logo.wine.png",
+        "image" : "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202208/vlc_media_player-sixteen_nine.jpg?size=1200:675",
         "description" : "VLC media player - All pull requests are ignored, please follow",
         "link": "https://www.videolan.org/vlc/",
         "github" : "https://github.com/videolan/vlc"
+    },
+    {
+        "company_name" : "cal.com",
+        "category": "open-source",
+        "image" : "https://marketplacecontent.zoom.us/%2F4axqqmhVR0uK2Tr36oQcCw%2FsKdXqBhORDeZIiMYJwGOZA%2Fapp%2FazCTrAjrQOuBHPRCSVo3JQ%2FzsnF6Ap5TAeehMF1OPzibQ.png",
+        "description" : "Open Source Scheduling: Send a link and meet or build an entire marketplace for humans to connect.",
+        "link": "https://cal.com/",
+        "github" : "https://github.com/calcom/cal.com"
     }
 ]
