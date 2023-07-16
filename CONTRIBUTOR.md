@@ -32,7 +32,7 @@ There are several ways you can contribute to the project:
         "link": "Link of the company",
         "github" : "companies github page",
 
-    3. Make your changes, ensuring that the code follows our style guidelines.
+3. Make your changes, ensuring that the code follows our style guidelines.
    - Write tests to cover your changes whenever possible.
    - Submit a pull request, providing a detailed description of the changes you made.
 
