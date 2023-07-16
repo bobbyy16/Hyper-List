@@ -30,7 +30,8 @@ Hyper-List is open-source software. It aims to offer a comprehensive database or
 ## Installation
 
 1. Clone the repository: `git clone git@github.com:[Username]/Hyper-List.git`
-2. Install project dependencies: `pnpm install`
+2. cd Hyper-List
+3. Install project dependencies: `pnpm install`
 
 
 
