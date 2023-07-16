@@ -274,6 +274,61 @@ body{
   text-decoration: underline;
 }
 
+/* Docs */
+
+.documentation-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #111;
+  color: #333;
+}
+
+.documentation-container h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.documentation-container h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.documentation-container p {
+  margin-bottom: 10px;
+}
+
+.documentation-container ol,
+.documentation-container ul {
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.documentation-container code {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #111;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.documentation-container .feature-list li {
+  margin-bottom: 5px;
+}
+
+.documentation-container .contribution-steps li {
+  margin-bottom: 5px;
+}
+
+.code {
+  color: #EA3B3B;
+}
+
+.data{
+  display: flex;
+}
 
 
 /* Footer */
