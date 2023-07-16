@@ -4,7 +4,7 @@
 
 Hyper-List is open-source software. It aims to offer a comprehensive database or directory of companies across different industries and cities in India. And also the all the open source projects that are available to contribute and all the open source companies and projects are listed here.
 
-![Hyper-List](https://ibb.co/Jk0cXXJ)
+![Hyper-List](https://i.ibb.co/MNWgqq0/Screenshot-2023-07-16-130641.png)
 
 
 ## 💻 Tech Stack
@@ -41,7 +41,7 @@ We welcome contributions from the community! Please refer to our [Contributing G
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Contact
 
