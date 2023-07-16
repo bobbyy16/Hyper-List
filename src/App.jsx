@@ -6,18 +6,24 @@ import Open_Source from './components/Open_Source';
 import Docs from './components/Docs';
 import NotFound from './components/NotFound';
 
+
 function App() {
 
+
   return (
-    <Router>
-        <Routes>
-            <Route path="/" element={<Home />}></Route>
-            <Route path="/companies" element={<Companies />}></Route>
-            <Route path='/open-source' element={<Open_Source />}></Route>
-            <Route path='/docs' element={<Docs />}></Route>
-            <Route path='*' element={<NotFound />}></Route>
-          </Routes>  
-    </Router>
+    <div>
+      <div className='mobile'>THIS APP ONLY WORKS ON DESKTOP</div>
+      <Router>
+          <Routes>
+              <Route path="/" element={<Home />}></Route>
+              <Route path="/companies" element={<Companies />}></Route>
+              <Route path='/open-source' element={<Open_Source />}></Route>
+              <Route path='/docs' element={<Docs />}></Route>
+              <Route path='*' element={<NotFound />}></Route>
+            </Routes>  
+      </Router>
+    </div>
+
   )
 }
 

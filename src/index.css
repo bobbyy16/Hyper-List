@@ -304,11 +304,21 @@ body{
   padding: 10px;
 }
 
-
-@media (max-width: 1500px) {
-  .desktop{
-    display: none;
-  }
+.mobile{
+  display: none;
 }
 
-
+@media (max-width: 1500px) {
+  .App{
+      display: none;
+  }
+  .mobile{
+      display: flex;
+      font-size: x-large;
+      color: #EA3B3B;
+      font-weight: bold;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+  }
+}
