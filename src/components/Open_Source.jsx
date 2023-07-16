@@ -15,7 +15,6 @@ function Open_Source() {
             <h3>{company.company_name}</h3>
             <p>{company.description}</p>
             <a href={company.link}>Visit Website</a>
-            <a href={company.carrers}>Careers</a>
             <a href={company.github}>GitHub</a>
           </div>
         ))}

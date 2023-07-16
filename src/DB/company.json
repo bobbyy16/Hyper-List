@@ -3,18 +3,17 @@
         "company_name" : "Infosys",
         "category": "companies",
         "image" : "https://cdn-ukwest.onetrust.com/logos/8d84415b-1b52-4bc4-8d5f-ca9a8eccaf8a/f7db8968-fc22-4620-92ac-dc05c5d2aa15/02460a41-565e-4cac-80a7-449bc8f77a72/logo-infosys.png",
-        "description" : "Nice place to work",
-        "link": "www.google.com",
-        "carrers" : "www.twitter.com",
+        "description" : "Infosys is a global leader in next-generation digital services and consulting.",
+        "link": "https://www.infosys.com/",
+        "carrers" : "https://www.infosys.com/careers/",
         "location" : "Mysore, Karnataka"
    },
    {
         "company_name" : "vlc",
         "category": "open-source",
         "image" : "https://download.logo.wine/logo/VLC_media_player/VLC_media_player-Logo.wine.png",
-        "description" : "Nice place to work",
-        "link": "www.google.com",
-        "carrers" : "www.twitter.com",
-        "github" : "www.github.com"
+        "description" : "VLC media player - All pull requests are ignored, please follow",
+        "link": "https://www.videolan.org/vlc/",
+        "github" : "https://github.com/videolan/vlc"
     }
 ]
