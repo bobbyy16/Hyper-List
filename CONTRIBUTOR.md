@@ -13,7 +13,8 @@ There are several ways you can contribute to the project:
 3. **Code Contributions**: If you want to contribute code to the project, follow these steps:
    - Star the Repo.
    - Fork the repository and create a new branch for your feature or bug fix.
-   - go to src/DB/company.json
+   - Go to src/DB/company.json
+   - Recommended to use rectangle shaped images.
 - For Companies list use this template  
    
          "company_name" : "company_name",
