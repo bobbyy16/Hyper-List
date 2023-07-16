@@ -305,3 +305,10 @@ body{
 }
 
 
+@media (max-width: 1500px) {
+  .desktop{
+    display: none;
+  }
+}
+
+

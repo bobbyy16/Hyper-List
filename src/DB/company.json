@@ -10,13 +10,13 @@
    },
    
    {
-    "company_name" : "L & T technology services",
-    "category": "companies",
-    "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-jKbQ1uLfxOnpz_7brz76Dg8QVi1JwkNEWYj4mNQtxvly7ycsLKO4Y-tQE-W2SIcXuKU&usqp=CAU",
-    "description" : "L&T Electrical & Automation (E&A) Mysore facility, located in the state of Karnataka in South India.",
-    "link": "https://www.ltts.com/careers/job-opportunities/Mysuru",
-    "carrers" : "https://www.ltts.com/careers",
-    "location" : "Mysore, Karnataka"
+        "company_name" : "L & T technology services",
+        "category": "companies",
+        "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-jKbQ1uLfxOnpz_7brz76Dg8QVi1JwkNEWYj4mNQtxvly7ycsLKO4Y-tQE-W2SIcXuKU&usqp=CAU",
+        "description" : "L&T Electrical & Automation (E&A) Mysore facility, located in the state of Karnataka in South India.",
+        "link": "https://www.ltts.com/careers/job-opportunities/Mysuru",
+        "carrers" : "https://www.ltts.com/careers",
+        "location" : "Mysore, Karnataka"
     },
 
    {
