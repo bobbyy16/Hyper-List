@@ -6,7 +6,7 @@ Thank you for considering contributing to our project! We welcome contributions 
 
 There are several ways you can contribute to the project:
 
-1. **Bug Reports and Feature Requests**: If you come across a bug or have an idea for a new feature, please open an issue on our [issue tracker](link_to_issue_tracker). Be sure to provide as much detail as possible, including steps to reproduce for bug reports.
+1. **Bug Reports and Feature Requests**: If you come across a bug or have an idea for a new feature, please open an issue on our [issue tracker](https://github.com/bobbyy16/Hyper-List/issues). Be sure to provide as much detail as possible, including steps to reproduce for bug reports.
 
 2. **Documentation**: We greatly appreciate improvements to our documentation. If you notice any areas that can be clarified or expanded, please submit a pull request with your proposed changes.
 
@@ -40,7 +40,7 @@ There are several ways you can contribute to the project:
 
 To set up the project locally for development, follow these steps:
 
-1. Clone the repository: `git clone [repository URL]`
+1. Clone the repository: `git clone git@github.com:[Username]/Hyper-List.git`
 2. Install the project dependencies: `pnpm install`
 3. Make changes with above mention code.
 
