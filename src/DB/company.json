@@ -34,5 +34,13 @@
         "description" : "Open Source Scheduling: Send a link and meet or build an entire marketplace for humans to connect.",
         "link": "https://cal.com/",
         "github" : "https://github.com/calcom/cal.com"
+    },
+    {
+        "company_name" : "Visual studio code",
+        "category": "open-source",
+        "image" : "https://www.freecodecamp.org/news/content/images/2021/08/vscode.png",
+        "description" : "Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.",
+        "link": "https://code.visualstudio.com/",
+        "github" : "https://github.com/microsoft/vscode"
     }
 ]
