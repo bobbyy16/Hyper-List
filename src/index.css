@@ -21,6 +21,10 @@ body {
   position: sticky;
 }
 
+.navbar-docs{
+  border: 1px solid #EA3B3B;
+}
+
 .navbar h1 {
   color: #EA3B3B;
 }
@@ -474,4 +478,42 @@ body {
   .mobile {
     display: block;
   }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .navbar {
+    padding: 10px;
+    justify-content: space-between;
+  }
+
+  .navbar h1 {
+    font-size: 1.2rem;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .links.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 10px;
+    transition: all 0.3s ease;
+  }
+
+  .links a {
+    margin: 5px 15px;;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+  
+
 }
