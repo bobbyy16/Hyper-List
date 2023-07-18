@@ -7,7 +7,7 @@
   color: #fff;
 }
 
-body{
+body {
   background-color: #111;
 }
 
@@ -20,33 +20,47 @@ body{
   border-bottom: 1px solid #f2f2f2;
   position: sticky;
 }
+
 .navbar h1 {
-  color:#EA3B3B;
+  color: #EA3B3B;
 }
-.navbar .links {
+
+.logo {
+  height: 25px;
+}
+
+.navbar .logo {
+  margin-right: auto;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   margin-left: auto;
 }
-.navbar a {
+
+.links a {
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
   transition: all .1s;
 }
-.navbar a:hover {
-  color:#EA3B3B;
-}
-.content {
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
-}
-.logo {
-  padding-left: 10px;
-  height: 25px;
+
+.links a:hover {
+  color: #EA3B3B;
 }
 
-.navbar-docs {
-  border: 1px solid #EA3B3B;
+.menu-icon {
+  display: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.menu-icon.open {
+  color: #EA3B3B;
 }
 
 
@@ -118,6 +132,12 @@ body{
 
 .image-container {
   margin-right: 2rem;
+}
+
+.why-should-we-do-this{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .why-should-we-do-this img {
@@ -359,21 +379,99 @@ body{
   padding: 10px;
 }
 
-.mobile{
-  display: none;
-}
+@media (max-width: 768px) {
 
-@media (max-width: 1600px) {
-  .App{
-      display: none;
+  .navbar {
+    padding: 10px;
+    justify-content: space-between;
   }
-  .mobile{
-      display: flex;
-      font-size: x-large;
-      color: #EA3B3B;
-      font-weight: bold;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
+
+  .navbar h1 {
+    font-size: 1.2rem;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .links.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 10px;
+    transition: all 0.3s ease;
+  }
+
+  .links a {
+    margin: 5px 15px;;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+  
+  .hero-subtitle {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .why-should-we-do-this {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .image-container {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .why-should-we-do-this img {
+    margin-left: 0;
+    margin-top: 0;
+    height: auto;
+  }
+
+  .benefits-list{
+    text-align: left;
+  }
+
+  .m-1{
+    margin-top: -70px;
+  }
+
+  .image-container-contributors{
+    display: none;
+  }
+  
+  .content {
+    margin-left: 0;
+  }
+  
+  .card-container {
+    justify-content: center;
+  }
+
+  .why-should-we-do-this img {
+    height: 300px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-box {
+    margin: 10px;
+  }
+  
+  .mobile {
+    display: block;
   }
 }

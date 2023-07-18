@@ -12,8 +12,7 @@ function App() {
 
   return (
     <div>
-      <div className='mobile'>THIS APP ONLY WORKS ON DESKTOP</div>
-      <Router>
+        <Router>
           <Routes>
               <Route path="/" element={<Home />}></Route>
               <Route path="/companies" element={<Companies />}></Route>
