@@ -418,6 +418,10 @@ body {
     display: block;
   }
   
+  .home-page{
+    padding: 0;
+  }
+
   .hero-subtitle {
     margin-left: 0;
     margin-right: 0;
@@ -445,7 +449,7 @@ body {
   }
 
   .m-1{
-    margin-top: -70px;
+    margin: -70px -40px 0 -20px;
   }
 
   .image-container-contributors{
