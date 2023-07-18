@@ -195,6 +195,10 @@ body {
   margin-right: 30%;
 }
 
+.image-container-contributors-desktop{
+  display: none;
+}
+
 .content-contributors {
   display: flex;
   flex-direction: column;
@@ -468,6 +472,13 @@ body {
     height: 300px;
     display: flex;
     align-items: center;
+  }
+
+  .image-container-contributors-desktop{
+    display: contents;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
   }
   
   .footer {
