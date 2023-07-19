@@ -20,6 +20,7 @@ Hyper-List is an open-source software. It aims to offer a comprehensive database
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
+- [Contributors](#contributors)
 
 ## Features
 
@@ -46,4 +47,11 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 ## Contact
 
 If you have any questions or suggestions, feel free to reach out to us at bobbyyyyy16@gmail.com.
+
+## Contributors
+
+Thank you for your interest in contributing to our project! We appreciate any contributions, whether it's bug fixes, new features, or documentation improvements.
+
+
+[![Contributors](https://contrib.rocks/image?repo=bobbyy16/Hyper-List)](https://github.com/bobbyy16/Hyper-List/graphs/contributors)
 
