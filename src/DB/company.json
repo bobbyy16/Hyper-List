@@ -1,46 +1,54 @@
-[
-    {
-        "company_name" : "Infosys",
+[{
+        "company_name": "Infosys",
         "category": "companies",
-        "image" : "https://cdn-ukwest.onetrust.com/logos/8d84415b-1b52-4bc4-8d5f-ca9a8eccaf8a/f7db8968-fc22-4620-92ac-dc05c5d2aa15/02460a41-565e-4cac-80a7-449bc8f77a72/logo-infosys.png",
-        "description" : "Infosys is a global leader in next-generation digital services and consulting.",
+        "image": "https://cdn-ukwest.onetrust.com/logos/8d84415b-1b52-4bc4-8d5f-ca9a8eccaf8a/f7db8968-fc22-4620-92ac-dc05c5d2aa15/02460a41-565e-4cac-80a7-449bc8f77a72/logo-infosys.png",
+        "description": "Infosys is a global leader in next-generation digital services and consulting.",
         "link": "https://www.infosys.com/",
-        "carrers" : "https://www.infosys.com/careers/",
-        "location" : "Mysore, Karnataka"
-   },
-   
-   {
-        "company_name" : "L & T technology services",
-        "category": "companies",
-        "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-jKbQ1uLfxOnpz_7brz76Dg8QVi1JwkNEWYj4mNQtxvly7ycsLKO4Y-tQE-W2SIcXuKU&usqp=CAU",
-        "description" : "L&T Electrical & Automation (E&A) Mysore facility, located in the state of Karnataka in South India.",
-        "link": "https://www.ltts.com/careers/job-opportunities/Mysuru",
-        "carrers" : "https://www.ltts.com/careers",
-        "location" : "Mysore, Karnataka"
+        "carrers": "https://www.infosys.com/careers/",
+        "location": "Mysore, Karnataka"
     },
 
-   {
-        "company_name" : "vlc",
+    {
+        "company_name": "L & T technology services",
+        "category": "companies",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-jKbQ1uLfxOnpz_7brz76Dg8QVi1JwkNEWYj4mNQtxvly7ycsLKO4Y-tQE-W2SIcXuKU&usqp=CAU",
+        "description": "L&T Electrical & Automation (E&A) Mysore facility, located in the state of Karnataka in South India.",
+        "link": "https://www.ltts.com/careers/job-opportunities/Mysuru",
+        "carrers": "https://www.ltts.com/careers",
+        "location": "Mysore, Karnataka"
+    },
+    {
+        "company_name": "Tata Consultancy Services (TCS)",
+        "category": "companies",
+        "image": "https://adda247-wp-multisite-assets.s3.ap-south-1.amazonaws.com/wp-content/uploads/multisite/sites/5/2022/08/19082902/Tata-Consultancy-Services-Limited-TCS-Logo-2.jpg",
+        "description": "TCS is an IT services, consulting and business solutions organization that has been partnering with many of the world's largest businesses in their ...",
+        "link": "https://www.tcs.com/",
+        "carrers": "https://www.tcs.com/careers",
+        "location": "Mumbai, Maharastra"
+    },
+
+    {
+        "company_name": "vlc",
         "category": "open-source",
-        "image" : "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202208/vlc_media_player-sixteen_nine.jpg?size=1200:675",
-        "description" : "VLC media player - All pull requests are ignored, please follow",
+        "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202208/vlc_media_player-sixteen_nine.jpg?size=1200:675",
+        "description": "VLC media player - All pull requests are ignored, please follow",
         "link": "https://www.videolan.org/vlc/",
-        "github" : "https://github.com/videolan/vlc"
+        "github": "https://github.com/videolan/vlc"
     },
     {
-        "company_name" : "cal.com",
+        "company_name": "cal.com",
         "category": "open-source",
-        "image" : "https://marketplacecontent.zoom.us/%2F4axqqmhVR0uK2Tr36oQcCw%2FsKdXqBhORDeZIiMYJwGOZA%2Fapp%2FazCTrAjrQOuBHPRCSVo3JQ%2FzsnF6Ap5TAeehMF1OPzibQ.png",
-        "description" : "Open Source Scheduling: Send a link and meet or build an entire marketplace for humans to connect.",
+        "image": "https://marketplacecontent.zoom.us/%2F4axqqmhVR0uK2Tr36oQcCw%2FsKdXqBhORDeZIiMYJwGOZA%2Fapp%2FazCTrAjrQOuBHPRCSVo3JQ%2FzsnF6Ap5TAeehMF1OPzibQ.png",
+        "description": "Open Source Scheduling: Send a link and meet or build an entire marketplace for humans to connect.",
         "link": "https://cal.com/",
-        "github" : "https://github.com/calcom/cal.com"
+        "github": "https://github.com/calcom/cal.com"
     },
     {
-        "company_name" : "Visual studio code",
+        "company_name": "Visual studio code",
         "category": "open-source",
-        "image" : "https://www.freecodecamp.org/news/content/images/2021/08/vscode.png",
-        "description" : "Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.",
+        "image": "https://www.freecodecamp.org/news/content/images/2021/08/vscode.png",
+        "description": "Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.",
         "link": "https://code.visualstudio.com/",
-        "github" : "https://github.com/microsoft/vscode"
+        "github": "https://github.com/microsoft/vscode"
     }
 ]
