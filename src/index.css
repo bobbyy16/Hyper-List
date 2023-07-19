@@ -391,6 +391,11 @@ body {
   padding: 10px;
 }
 
+::selection{
+  color: #fff;
+  background-color: #EA3B3B;
+}
+
 @media (max-width: 768px) {
 
   .navbar {
