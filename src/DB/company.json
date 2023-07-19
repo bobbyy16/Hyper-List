@@ -7,6 +7,15 @@
         "carrers": "https://www.infosys.com/careers/",
         "location": "Mysore, Karnataka"
     },
+{
+        "company_name": "GlobalLogic",
+        "category": "companies",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Knl4EpwbI5Srm_UxA-XzcEu3xns9cj8b9w&usqp=CAU",
+        "description": "GlobalLogic is an Indian digital services company providing software product design and development services.",
+        "link": "https://www.globallogic.com/in/",
+        "carrers": "https://www.globallogic.com/careers/",
+        "location": "Bengaluru, Karnataka"
+    },
 
     {
         "company_name": "L & T technology services",
