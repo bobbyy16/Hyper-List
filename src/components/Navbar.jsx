@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <div>
       <nav className={`navbar ${isMenuOpen ? 'open' : ''}`}>
-        <a href='https://www.linkpicture.com/view.php?img=LPic64ad661c1b6861708777206'>
+        <a href='/'>
           <img src='https://www.linkpicture.com/q/HL.png' className='logo' alt='image' />
         </a>
         <div className="menu-icon" onClick={toggleMenu}>
