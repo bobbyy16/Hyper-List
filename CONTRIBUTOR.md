@@ -15,6 +15,7 @@ There are several ways you can contribute to the project:
    - Fork the repository and create a new branch for your feature or bug fix.
    - Go to src/DB/company.json
    - Recommended to use rectangle shaped images.
+   - For location just mention the company's main office in India(if there are multiple offices in India).
 - For Companies list use this template  
    
          "company_name" : "company_name",
