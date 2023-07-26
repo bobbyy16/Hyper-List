@@ -17,7 +17,6 @@ const HomePage = () => {
           </p>
           <div className="button-container">
             <a href="/companies" className="orange-button">Explore companies</a>
-            <a href="/open-source" className="orange-button">Open Source</a>
           </div>
         </header>
         <div className="why-should-we-do-this">

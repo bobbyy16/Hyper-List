@@ -38,7 +38,7 @@ function Docs() {
           <li>Create a new branch for your feature or bug fix.</li>
           <li>We are using two different section in this project - <span className='code'> Companies and Open-Source</span>
           </li>
-          <li>For <span className="code">Companies</span> use:
+          <li>To add <span className="code">Companies</span> use:
             <code>
               <span className='data'>"company_name" : "company_name",</span>
               <span className='data'>"category": "companies",</span>
@@ -47,16 +47,6 @@ function Docs() {
               <span className='data'>"link": "Link of the company",</span>
               <span className='data'>"carrers" : "carrers page",</span>
               <span className='data'>"location" : "location of the company"</span>
-            </code>
-          </li>
-          <li>For <span className="code">Open-Source</span> use:
-            <code>
-              <span className='data'>"company_name" : "company_name",</span>
-              <span className='data'>"category": "open-source",</span>
-              <span className='data'>"image" : "Image of the company",</span>
-              <span className='data'>"description" : "description of that company",</span>
-              <span className='data'>"link": "Link of the company",</span>
-              <span className='data'>"github" : "companies github page",</span>
             </code>
           </li>
           <li>Make your changes and commit them using <code className='code'>git commit -m "[your message]"</code></li>
