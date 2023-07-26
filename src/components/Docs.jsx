@@ -36,8 +36,6 @@ function Docs() {
           <li>Star the repository.</li>
           <li>Fork the project repository.</li>
           <li>Create a new branch for your feature or bug fix.</li>
-          <li>We are using two different section in this project - <span className='code'> Companies and Open-Source</span>
-          </li>
           <li>To add <span className="code">Companies</span> use:
             <code>
               <span className='data'>"company_name" : "company_name",</span>
