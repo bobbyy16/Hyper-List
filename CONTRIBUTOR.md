@@ -16,7 +16,7 @@ There are several ways you can contribute to the project:
    - Go to src/DB/company.json
    - Recommended to use rectangle shaped images.
    - For location just mention the company's main office in India(if there are multiple offices in India).
-- For Companies list use this template  
+- To add Companies to the list use this template  
    
          "company_name" : "company_name",
          "category": "companies",
@@ -26,14 +26,6 @@ There are several ways you can contribute to the project:
          "carrers" : "carrers page",
          "location" : "location of the company"
 
-- For Open-Source list use this template  
-   
-        "company_name" : "company_name",
-        "category": "open-source",
-        "image" : "Image of the company",
-        "description" : "description of that company",
-        "link": "Link of the company",
-        "github" : "companies github page",
 
 3. Make your changes, ensuring that the code follows our style guidelines.
    - Write tests to cover your changes whenever possible.
