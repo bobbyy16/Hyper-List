@@ -8,10 +8,12 @@ import NotFound from './components/NotFound';
 import React, { useEffect } from 'react';
 import ReactGA from 'react-ga4';
 
+
 function App() {
   useEffect(() => {
-    ReactGA.initialize("G-K0HML6S73C");
-    ReactGA.send({ hitType: "pageview", page: "/my-path", title: "Custom Title" });  }, []);
+    ReactGA.initialize(import.meta.env.VITE_REACT_APP_GA_TRACKING_ID);
+    ReactGA.send({ hitType: "pageview", page: "/my-path", title: "Custom Title" });  
+  }, []);
 
   return (
     <div>
