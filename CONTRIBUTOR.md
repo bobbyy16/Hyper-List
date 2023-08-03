@@ -14,8 +14,8 @@ There are several ways you can contribute to the project:
    - Star the Repo.
    - Fork the repository and create a new branch for your feature or bug fix.
    - Go to src/DB/company.json
-   - Recommended to use rectangle shaped images.
-   - For location just mention the company's main office in India(if there are multiple offices in India).
+   - Recommended to use rectangle-shaped images.
+   - If the company has multiple locations, do mention all the locations separately, for example, Infosys is there in Mysuru as well as Bengaluru. You should add 2 different data.
 - To add Companies to the list use this template  
    
          "company_name" : "company_name",
