@@ -46,6 +46,7 @@ function Docs() {
               <span className='data'>"carrers" : "carrers page",</span>
               <span className='data'>"location" : "location of the company"</span>
             </code>
+            <li>If the company has multiple locations, do mention all the locations separately, for example, Infosys is there in Mysuru as well as Bengaluru. You should add 2 different data.</li>
           </li>
           <li>Make your changes and commit them using <code className='code'>git commit -m "[your message]"</code></li>
           <li>Submit a pull request with a detailed description of your changes.</li>
