@@ -362,6 +362,56 @@ body {
   display: flex;
 }
 
+/* 
+search bar
+*/
+
+/* companies-simple-style.css */
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.card p {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.card a {
+  display: block;
+  margin: 5px 0;
+  color: #EA3B3B;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
 
 /* Footer */
 

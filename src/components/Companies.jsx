@@ -1,16 +1,30 @@
-import React from 'react'
-import Navbar from './Navbar'
-import Footer from './Footer'
-import companyData from '../DB/company.json'
-
+import React, { useState } from 'react';
+import Navbar from './Navbar';
+import Footer from './Footer';
+import companyData from '../DB/company.json';
 
 function Companies() {
-  const filteredData = companyData.filter(company => company.category === 'companies');
+  const [searchTerm, setSearchTerm] = useState('');
+  const filteredData = companyData.filter(
+    (company) =>
+      company.category === 'companies' &&
+      (company.company_name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        company.location.toLowerCase().includes(searchTerm.toLowerCase()))
+  );
+
   return (
     <div>
-      <Navbar/>
+      <Navbar />
+      <div className="search-bar">
+        <input
+          type="text"
+          placeholder="Search companies or locations..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+        />
+      </div>
       <div className="card-container">
-        {filteredData.map(company => (
+        {filteredData.map((company) => (
           <div className="card" key={company.company_name}>
             <img src={company.image} alt={company.company_name} />
             <h3>{company.company_name}</h3>
@@ -21,9 +35,9 @@ function Companies() {
           </div>
         ))}
       </div>
-      <Footer/>
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default Companies
+export default Companies;
