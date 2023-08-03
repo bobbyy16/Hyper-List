@@ -12,9 +12,9 @@ const HomePage = () => {
       <div className="home-page">
         <header className="hero-section">
           <h1 className="hero-title">Find Companies in India</h1>
-          <p className="hero-subtitle">It aims to offer a comprehensive database or directory of companies across different industries and cities in India.
-            And also the all the open source projects that are available to contribute and all the open source companies and projects are listed here
-          </p>
+          <p className="hero-subtitle">
+          Explore the comprehensive database of companies across various regions in India on our website, connecting you to the diverse business landscape of the nation.
+            </p>
           <div className="button-container">
             <a href="/companies" className="orange-button">Explore companies</a>
           </div>
