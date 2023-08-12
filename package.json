@@ -4,10 +4,16 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "predeploy": "pnpm run build",
+    "start": "vite",
+    "dev": "node /app/node_modules/vite/bin/vite.js",
     "build": "vite build",
-    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "test": "vitest",
+    "preview": "vite preview",
+    "preinstall": "npx only-allow pnpm",
+    "commitlint": "commitlint --edit",
+    "prepare": "pnpx husky install",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",
