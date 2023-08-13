@@ -1,6 +1,6 @@
 FROM node:18
 
-WORKDIR /app
+RUN mkdir -p /home/app
 
 COPY package*.json ./
 
@@ -8,7 +8,7 @@ RUN npm install -g pnpm
 
 RUN pnpm install
 
-COPY . .
+COPY . /home/app
 
 EXPOSE 5173
 
