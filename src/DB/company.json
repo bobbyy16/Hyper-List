@@ -4,8 +4,17 @@
         "image": "https://cdn-ukwest.onetrust.com/logos/8d84415b-1b52-4bc4-8d5f-ca9a8eccaf8a/f7db8968-fc22-4620-92ac-dc05c5d2aa15/02460a41-565e-4cac-80a7-449bc8f77a72/logo-infosys.png",
         "description": "Infosys is a global leader in next-generation digital services and consulting.",
         "link": "https://www.infosys.com/",
-        "carrers": "https://www.infosys.com/careers/",
+        "careers": "https://www.infosys.com/careers/",
         "location": "Mysore, Karnataka"
+    },
+    {
+        "company_name": "BlackCoffer",
+        "category": "companies",
+        "image": "https://connect-assets.prosple.com/cdn/ff/q_-vTDnctSHPyZevNeXCenz0AGaAYBmEMKxY10rtI2U/1629138650/public/styles/scale_and_crop_center_299x168/public/2021-08/Black%20Coffer%20Logo.png?itok=fmqS-YU8",
+        "description": "Blackcoffer provides services like BigData analytics, App development, Consultancy services, and Information Management.",
+        "link": "https://blackcoffer.com/",
+        "careers": "https://blackcoffer.com/careers/",
+        "location": "New Delhi, Delhi"
     },
     {
         "company_name": "GlobalLogic",
@@ -13,7 +22,7 @@
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Knl4EpwbI5Srm_UxA-XzcEu3xns9cj8b9w&usqp=CAU",
         "description": "GlobalLogic is an Indian digital services company providing software product design and development services.",
         "link": "https://www.globallogic.com/in/",
-        "carrers": "https://www.globallogic.com/careers/",
+        "careers": "https://www.globallogic.com/careers/",
         "location": "Bengaluru, Karnataka"
     },
 
@@ -23,34 +32,34 @@
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-jKbQ1uLfxOnpz_7brz76Dg8QVi1JwkNEWYj4mNQtxvly7ycsLKO4Y-tQE-W2SIcXuKU&usqp=CAU",
         "description": "L&T Electrical & Automation (E&A) Mysore facility, located in the state of Karnataka in South India.",
         "link": "https://www.ltts.com/careers/job-opportunities/Mysuru",
-        "carrers": "https://www.ltts.com/careers",
+        "careers": "https://www.ltts.com/careers",
         "location": "Mysore, Karnataka"
     },
     {
         "company_name": "Tata Consultancy Services (TCS)",
         "category": "companies",
         "image": "https://adda247-wp-multisite-assets.s3.ap-south-1.amazonaws.com/wp-content/uploads/multisite/sites/5/2022/08/19082902/Tata-Consultancy-Services-Limited-TCS-Logo-2.jpg",
-        "description": "TCS is an IT services, consulting and business solutions organization that has been partnering with many of the world's largest businesses in their ...",
+        "description": "TCS is an IT services, consulting, and business solutions organization that has been partnering with many of the world's largest businesses in there...",
         "link": "https://www.tcs.com/",
-        "carrers": "https://www.tcs.com/careers",
+        "careers": "https://www.tcs.com/careers",
         "location": "Mumbai, Maharastra"
     },
     {
         "company_name": "Accenture",
         "category": "companies",
         "image": "https://freshershunt.in/wp-content/uploads/2023/04/Accenture-Off-Campus-Drive-2023.jpeg",
-        "description": "Accenture is a leading global professional services company that helps the world's leading businesses, governments and other organizations build their digital ...",
+        "description": "Accenture is a leading global professional services company that helps the world's leading businesses, governments, and other organizations build their digital ...",
         "link": " https://www.accenture.com/",
-        "carrers": "https://www.accenture.com/us-en/careers",
+        "careers": "https://www.accenture.com/us-en/careers",
         "location": "Mumbai, Maharastra"
     },
     {
         "company_name": "Cognizant",
         "category": "companies",
         "image": "https://www.temenos.com/wp-content/uploads/2019/06/cognizant-logo.png",
-        "description": "one of the world's leading professional services companies, transforming clients' business, operating and technology models for the digital era. ",
+        "description": "One of the world's leading professional services companies, transforming clients' business, operating, and technology models for the digital era. ",
         "link": "https://www.cognizant.com/",
-        "carrers": "https://careers.cognizant.com/global/en",
+        "careers": "https://careers.cognizant.com/global/en",
         "location": "Chennai, Tamil Nadu "
     },
 
@@ -60,7 +69,7 @@
         "image": "https://www.wipro.com/content/dam/nexus/en/brand/images/secondary-logo-400x276.png",
         "description": "Wipro's technology and IT consulting services enable enterprises to build innovative solutions for addressing the most complex digital transformation needs.",
         "link": "https://www.wipro.com/",
-        "carrers": "https://careers.wipro.com/",
+        "careers": "https://careers.wipro.com/",
         "location": "Bangalore, Karnataka"
     },
 
@@ -68,10 +77,10 @@
         "company_name": "Capgemini",
         "category": "companies",
         "image": "https://sightsinplus.com/wp-content/uploads/2020/09/Capgemini-New-Logo-1280x720.png",
-        "description": "A global leader in consulting, technology services and digital transformation, we offer an array of integrated services combining technology with deep ...",
+        "description": "A global leader in consulting, technology services, and digital transformation, we offer an array of integrated services combining technology with deep ...",
         "link": " https://www.capgemini.com/",
-        "carrers": " https://www.capgemini.com/careers/",
-        "location": "Pune,Maharashtra "
+        "careers": " https://www.capgemini.com/careers/",
+        "location": "Pune, Maharashtra "
     },
 
     {
@@ -80,33 +89,7 @@
         "image": "https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/952/cached.offlinehbpl.hbpl.co.uk/news/SUC/20220927102358_hcltech-copy-CUS.jpg",
         "description": "HCLTech - Global technology company, home to 223400+ people across 60 countries, supercharging progress for the world's top enterprises by bringing together ...",
         "link": "https://www.hcltech.com/",
-        "carrers": "https://www.hcltech.com/careers/",
+        "careers": "https://www.hcltech.com/careers/",
         "location": " Noida, Uttar Pradesh"
-    },
-
-
-    {
-        "company_name": "vlc",
-        "category": "open-source",
-        "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202208/vlc_media_player-sixteen_nine.jpg?size=1200:675",
-        "description": "VLC media player - All pull requests are ignored, please follow",
-        "link": "https://www.videolan.org/vlc/",
-        "github": "https://github.com/videolan/vlc"
-    },
-    {
-        "company_name": "cal.com",
-        "category": "open-source",
-        "image": "https://marketplacecontent.zoom.us/%2F4axqqmhVR0uK2Tr36oQcCw%2FsKdXqBhORDeZIiMYJwGOZA%2Fapp%2FazCTrAjrQOuBHPRCSVo3JQ%2FzsnF6Ap5TAeehMF1OPzibQ.png",
-        "description": "Open Source Scheduling: Send a link and meet or build an entire marketplace for humans to connect.",
-        "link": "https://cal.com/",
-        "github": "https://github.com/calcom/cal.com"
-    },
-    {
-        "company_name": "Visual studio code",
-        "category": "open-source",
-        "image": "https://www.freecodecamp.org/news/content/images/2021/08/vscode.png",
-        "description": "Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.",
-        "link": "https://code.visualstudio.com/",
-        "github": "https://github.com/microsoft/vscode"
     }
 ]
