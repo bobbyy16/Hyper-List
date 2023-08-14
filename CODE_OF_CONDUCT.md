@@ -26,9 +26,9 @@ The following behaviors are considered unacceptable:
 
 ## Reporting and Enforcement
 
-If you witness or experience any violations of this Code of Conduct, please report it to the project maintainers at [bobbyyyyy16@gmail.com]. All reports will be handled confidentially and will be reviewed and investigated promptly. The project maintainers have the right to take appropriate actions in response to violations, including warning, temporary or permanent bans, or other actions they deem necessary.
+If you witness or experience any violations of this Code of Conduct, please report it to the project maintainers at bobbyyyyy16@gmail.com. All reports will be handled confidentially and will be reviewed and investigated promptly. The project maintainers have the right to take appropriate actions in response to violations, including warnings, temporary or permanent bans, or other actions they deem necessary.
 
 ## Attribution
 
-This Code of Conduct is adapted from the Contributor Covenant, version 2.0, available at [https://www.contributor-covenant.org/version/2/0/code_of_conduct.html].
+This Code of Conduct is adapted from the Contributor Covenant, version 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.
 
