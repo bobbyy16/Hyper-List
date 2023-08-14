@@ -6,7 +6,7 @@ Thank you for considering contributing to our project! We welcome contributions 
 
 There are several ways you can contribute to the project:
 
-1. **Bug Reports and Feature Requests**: If you come across a bug or have an idea for a new feature, please open an issue on our [issue tracker](https://github.com/bobbyy16/Hyper-List/issues). Be sure to provide as much detail as possible, including steps to reproduce for bug reports.
+1. **Bug Reports and Feature Requests**: If you come across a bug or have an idea for a new feature, please open an issue on our [issue tracker](https://github.com/bobbyy16/Hyper-List/issues). Be sure to provide as much detail as possible, including steps to reproduce bug reports.
 
 2. **Documentation**: We greatly appreciate improvements to our documentation. If you notice any areas that can be clarified or expanded, please submit a pull request with your proposed changes.
 
@@ -20,16 +20,16 @@ There are several ways you can contribute to the project:
    
          "company_name" : "company_name",
          "category": "companies",
-         "image" : "Image of the company",
-         "description" : "description of that company",
+         "image": "Image of the company",
+         "description": "description of that company",
          "link": "Link of the company",
-         "carrers" : "carrers page",
-         "location" : "location of the company"
+         "careers": "careers page",
+         "location": "location of the company"
 
 
-3. Make your changes, ensuring that the code follows our style guidelines.
+3. Make your changes, ensuring the code follows our style guidelines.
    - Write tests to cover your changes whenever possible.
-   - Submit a pull request, providing a detailed description of the changes you made.
+   - Submit a pull request, providing a detailed description of your changes.
 
 ## Setting Up the Development Environment
 
