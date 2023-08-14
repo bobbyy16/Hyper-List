@@ -26,7 +26,7 @@ function Docs() {
         The project provides several features and functionalities. Here are some examples:
         <ul>
           <li>Allows users to look for different companies in different regions of India.</li>
-          <li>Allows users to find some open-source project to contribute.</li>
+          <li>Allows users to find some open-source projects to contribute.</li>
         </ul>
       </p>
       <h2 className='code'>Contributing</h2>
@@ -40,11 +40,11 @@ function Docs() {
             <code>
               <span className='data'>"company_name" : "company_name",</span>
               <span className='data'>"category": "companies",</span>
-              <span className='data'>"image" : "Image of the company",</span>
-              <span className='data'>"description" : "description of that company",</span>
+              <span className='data'>"image": "Image of the company",</span>
+              <span className='data'>"description": "description of that company",</span>
               <span className='data'>"link": "Link of the company",</span>
-              <span className='data'>"carrers" : "carrers page",</span>
-              <span className='data'>"location" : "location of the company"</span>
+              <span className='data'>"careers": "careers page",</span>
+              <span className='data'>"location": "location of the company"</span>
             </code>
             <li>If the company has multiple locations, do mention all the locations separately, for example, Infosys is there in Mysuru as well as Bengaluru. You should add 2 different data.</li>
           </li>
