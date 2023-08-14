@@ -46,6 +46,6 @@ Please note that this project is governed by our [Code of Conduct](./CODE_OF_CON
 
 ## Contact
 
-If you have any questions or need further assistance, feel free to reach out to us at bobbyyyyy16@example.com.
+If you have any questions or need further assistance, feel free to reach out to us at bobbyyyyy16@gmail.com.
 
 We appreciate your interest in contributing to our project! Your contributions help make it better for everyone involved.
