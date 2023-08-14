@@ -30,7 +30,7 @@ function Companies() {
             <h3>{company.company_name}</h3>
             <p>{company.description}</p>
             <a href={company.link}>Visit Website</a>
-            <a href={company.carrers}>Careers</a>
+            <a href={company.careers}>Careers</a>
             <p>{company.location}</p>
           </div>
         ))}
