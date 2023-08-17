@@ -105,9 +105,18 @@
         "company_name": "Amazon",
         "category": "companies",
         "image": "https://m.media-amazon.com/images/G/31/social_share/amazon_logo._CB633266945_.png",
-        "description": "Amazon.in: Online Shopping India - Buy mobiles, laptops, cameras, books, watches, apparel, shoes and e-Gift Cards.",
+        "description": "Amazon.in: Online Shopping India - Buy mobiles, laptops, cameras, books, watches, apparel, shoes, and e-Gift Cards.",
         "link": "https://www.amazon.in/",
         "careers": "https://amazon.jobs/en/",
+        "location": "Bengaluru, Karnataka"
+    },
+    {
+        "company_name": "Microsoft",
+        "category": "companies",
+        "image": "https://www.gartner.com/imagesrv/peer-insights/vendors/logos/microsoft.jpg",    
+        "description": "Explore Microsoft products and services for your home or business. Shop Surface, Microsoft 365, Xbox, Windows, Azure, and more.",
+        "link": "https://www.microsoft.com/en-in",
+        "careers": "https://careers.microsoft.com/v2/global/en/home.html",
         "location": "Bengaluru, Karnataka"
     }
 ]
