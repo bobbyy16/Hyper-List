@@ -12,4 +12,4 @@ COPY . /home/app
 
 EXPOSE 5173
 
-CMD ["pnpm", "start"]
+CMD ["pnpm", "start"] 
