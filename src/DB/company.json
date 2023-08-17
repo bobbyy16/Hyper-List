@@ -100,5 +100,14 @@
         "link": "https://www.nagarro.com/en",
         "careers": "https://www.nagarro.com/en/careers",
         "location": "Mysore, Karnataka"
+    },
+    {
+        "company_name": "Amazon",
+        "category": "companies",
+        "image": "https://m.media-amazon.com/images/G/31/social_share/amazon_logo._CB633266945_.png",
+        "description": "Amazon.in: Online Shopping India - Buy mobiles, laptops, cameras, books, watches, apparel, shoes and e-Gift Cards.",
+        "link": "https://www.amazon.in/",
+        "careers": "https://amazon.jobs/en/",
+        "location": "Bengaluru, Karnataka"
     }
 ]
