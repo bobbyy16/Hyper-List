@@ -91,5 +91,15 @@
         "link": "https://www.hcltech.com/",
         "careers": "https://www.hcltech.com/careers/",
         "location": " Noida, Uttar Pradesh"
+    },
+
+    {
+        "company_name": "Siemens",
+        "category": "companies",
+        "image": "https://www.newrest.eu/wp-content/uploads/2017/02/siemens-logo.jpg",
+        "description": "Siemens - the technology company focused on industry, infrastructure, transport, and healthcare. ...",
+        "link": "https://www.siemens.com/global/en.html",
+        "careers": "https://jobs.siemens.com/careers?utm_source=j_c_in",
+        "location": "Bangalore, Karnataka"
     }
 ]
