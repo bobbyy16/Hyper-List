@@ -101,5 +101,33 @@
         "link": "https://www.siemens.com/global/en.html",
         "careers": "https://jobs.siemens.com/careers?utm_source=j_c_in",
         "location": "Bangalore, Karnataka"
+    },
+ 
+    {
+        "company_name": "Nagarro",
+        "category": "companies",
+        "image": "https://ms-f7-sites-prod-cdn.akamaized.net/docs/stories/1607964557862058144-nagarro-professional-services-azure-en-india/resources/34da9184-1dfa-43c7-a71a-05951f224553/1607966690872146222_1607966690872146222",
+        "description": "A digital product engineering leader, Nagarro drives technology-led business breakthroughs for industry leaders and challengers",
+        "link": "https://www.nagarro.com/en",
+        "careers": "https://www.nagarro.com/en/careers",
+        "location": "Mysore, Karnataka"
+    },
+    {
+        "company_name": "Amazon",
+        "category": "companies",
+        "image": "https://m.media-amazon.com/images/G/31/social_share/amazon_logo._CB633266945_.png",
+        "description": "Amazon.in: Online Shopping India - Buy mobiles, laptops, cameras, books, watches, apparel, shoes, and e-Gift Cards.",
+        "link": "https://www.amazon.in/",
+        "careers": "https://amazon.jobs/en/",
+        "location": "Bengaluru, Karnataka"
+    },
+    {
+        "company_name": "Microsoft",
+        "category": "companies",
+        "image": "https://www.gartner.com/imagesrv/peer-insights/vendors/logos/microsoft.jpg",    
+        "description": "Explore Microsoft products and services for your home or business. Shop Surface, Microsoft 365, Xbox, Windows, Azure, and more.",
+        "link": "https://www.microsoft.com/en-in",
+        "careers": "https://careers.microsoft.com/v2/global/en/home.html",
+        "location": "Bengaluru, Karnataka"
     }
 ]
