@@ -11,10 +11,19 @@
         "company_name": "BlackCoffer",
         "category": "companies",
         "image": "https://connect-assets.prosple.com/cdn/ff/q_-vTDnctSHPyZevNeXCenz0AGaAYBmEMKxY10rtI2U/1629138650/public/styles/scale_and_crop_center_299x168/public/2021-08/Black%20Coffer%20Logo.png?itok=fmqS-YU8",
-        "description": "Blackcoffer provides services like BigData analytics, App development, Consultancy services, and Information Management.",
+        "description": "BlackCoffer provides services like BigData analytics, App development, Consultancy services, and Information Management.",
         "link": "https://blackcoffer.com/",
         "careers": "https://blackcoffer.com/careers/",
         "location": "New Delhi, Delhi"
+    },
+    {
+        "company_name": "Google India",
+        "category": "companies",
+        "image": "https://play-lh.googleusercontent.com/1-hPxafOxdYpYZEOKzNIkSP43HXCNftVJVttoo4ucl7rsMASXW3Xr6GlXURCubE1tA=w3840-h2160-rw",
+        "description": "Search the world's information, including webpages, images, videos, and more.",
+        "link": "https://www.google.co.in/",
+        "careers": "https://careers.google.com/locations/bangalore/",
+        "location": "Bengaluru, Karnataka"
     },
     {
         "company_name": "GlobalLogic",
