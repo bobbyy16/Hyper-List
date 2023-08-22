@@ -138,5 +138,14 @@
         "link": "https://www.microsoft.com/en-in",
         "careers": "https://careers.microsoft.com/v2/global/en/home.html",
         "location": "Bengaluru, Karnataka"
+    }, 
+    {
+        "company_name": "Tech Mahindra",
+        "category": "companies",
+        "image": "https://i.ibb.co/6bm56br/download.png",    
+        "description": "Global IT service company founded in 1986, part of Mahindra Group. Specializes in digital transformation, offering software, consulting, AI, and global operations with sustainability focus.",
+        "link": "https://www.techmahindra.com/",
+        "careers": "https://careers.techmahindra.com/",
+        "location": "Mumbai, Maharastra"
     }
 ]
