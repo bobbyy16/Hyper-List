@@ -147,5 +147,14 @@
         "link": "https://www.techmahindra.com/",
         "careers": "https://careers.techmahindra.com/",
         "location": "Mumbai, Maharastra"
+    },
+    {
+        "company_name": "Hexaware",
+        "category": "companies",
+        "image": "https://i.ibb.co/MZjyRqf/Hexaware.jpg",    
+        "description": "Hexaware is IT leader in custom digital solutions including app development, automation, and cloud services. Trusted for driving digital transformation through innovation.",
+        "link": "https://hexaware.com/",
+        "careers": "https://hexaware.com/careers",
+        "location": "Mumbai, Maharastra"
     }
 ]
