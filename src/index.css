@@ -9,6 +9,8 @@
 
 body {
   background-color: #111;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .navbar {
