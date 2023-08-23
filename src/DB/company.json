@@ -1,7 +1,7 @@
 [{
         "company_name": "Infosys",
         "category": "companies",
-        "image": "https://cdn-ukwest.onetrust.com/logos/8d84415b-1b52-4bc4-8d5f-ca9a8eccaf8a/f7db8968-fc22-4620-92ac-dc05c5d2aa15/02460a41-565e-4cac-80a7-449bc8f77a72/logo-infosys.png",
+        "image": "https://i.ibb.co/wKdJMhQ/logo-infosys.png",
         "description": "Infosys is a global leader in next-generation digital services and consulting.",
         "link": "https://www.infosys.com/",
         "careers": "https://www.infosys.com/careers/",
@@ -138,5 +138,23 @@
         "link": "https://www.microsoft.com/en-in",
         "careers": "https://careers.microsoft.com/v2/global/en/home.html",
         "location": "Bengaluru, Karnataka"
+    }, 
+    {
+        "company_name": "Tech Mahindra",
+        "category": "companies",
+        "image": "https://i.ibb.co/6bm56br/download.png",    
+        "description": "Global IT service company founded in 1986, part of Mahindra Group. Specializes in digital transformation, offering software, consulting, AI, and global operations with sustainability focus.",
+        "link": "https://www.techmahindra.com/",
+        "careers": "https://careers.techmahindra.com/",
+        "location": "Mumbai, Maharastra"
+    },
+    {
+        "company_name": "Hexaware",
+        "category": "companies",
+        "image": "https://i.ibb.co/MZjyRqf/Hexaware.jpg",    
+        "description": "Hexaware is IT leader in custom digital solutions including app development, automation, and cloud services. Trusted for driving digital transformation through innovation.",
+        "link": "https://hexaware.com/",
+        "careers": "https://hexaware.com/careers",
+        "location": "Mumbai, Maharastra"
     }
 ]
