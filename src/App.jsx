@@ -5,15 +5,15 @@ import Companies from './components/Companies';
 import Docs from './components/Docs';
 import NotFound from './components/NotFound';
 import React from 'react';
-// import {useEffect} from 'react';
+import {useEffect} from 'react';
 import ReactGA from 'react-ga4';
 
 
 function App() {
-  // useEffect(() => {
-  //   ReactGA.initialize(import.meta.env.VITE_REACT_APP_GA_TRACKING_ID);
-  //   ReactGA.send({ hitType: "pageview", page: "/my-path", title: "Custom Title" });  
-  // }, []);
+  useEffect(() => {
+    ReactGA.initialize(import.meta.env.VITE_REACT_APP_GA_TRACKING_ID);
+    ReactGA.send({ hitType: "pageview", page: "/my-path", title: "Custom Title" });  
+  }, []);
 
   return (
     <div>
