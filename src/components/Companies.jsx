@@ -25,7 +25,11 @@ function Companies() {
       </div>
       <div className="card-container">
         {filteredData.map((company) => (
-          <div className="card" key={company.company_name}>
+          <div
+            className="card"
+            key={company.company_name}
+            data-test="company-card"
+          >
             <img src={company.image} alt={company.company_name} />
             <h3>{company.company_name}</h3>
             <p>{company.description}</p>
