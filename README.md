@@ -1,4 +1,4 @@
-# Manual Testing Guide
+# Manual Testing
 
 This document provides detailed steps for manually testing the functionality of the Navbar, HomePage, Docs Page, and Companies Page as described in the provided test cases.
 
