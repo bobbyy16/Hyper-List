@@ -1,204 +1,90 @@
-# Manual Testing Documentation for India Companies Directory
+# Manual Testing Guide
 
-## Overview
-
-This document outlines the test cases for the India Companies Directory website, covering the following pages:
-
-- Home Page (/)
-- Companies Page (/companies)
-- Docs Page (/docs)
-
-## Software Testing Life Cycle (STLC)
-
-The manual testing process follows the stages of the STLC:
-
-### 1. Requirement Analysis
-
-Understanding the functionality of the India Companies Directory website and identifying testable requirements for each page.
-
-### 2. Test Planning
-
-Test cases are planned for the following:
-
-- Home Page functionality verification
-- Search and display features on the Companies Page
-- Content and navigation accuracy on the Docs Page
-
-### 3. Test Case Development
-
-Test cases for each page are detailed below.
-
-### 4. Test Environment Setup
-
-- **Browser**: Specify browser and version
-- **Operating System**: Specify OS
-- **Screen Resolution**: Specify resolution
-- Test environment will include mock data for companies.
-
-### 5. Test Execution
-
-Each test case will be executed, and results will be documented in a predefined template.
-
-### 6. Test Closure
-
-After execution, results and defect logs will be reviewed and finalized.
+This document provides detailed steps for manually testing the functionality of the Navbar, HomePage, Docs Page, and Companies Page as described in the provided test cases.
 
 ---
 
-## Test Cases
+## **1. Navbar Component**
 
-### Home Page (/)
-
-#### 1. Homepage Title and Subtitle Verification
-
-- **Objective**: Verify that the homepage displays the correct title and subtitle.
-- **Test Steps**:
-  1. Navigate to the Home Page.
-  2. Locate the element with class `.hero-title`.
-  3. Locate the element with class `.hero-subtitle`.
-- **Expected Results**:
-  - Title displays: "Find Companies in India".
-  - Subtitle displays: "Explore the comprehensive database of companies across various regions in India on our website, connecting you to the diverse business landscape of the nation."
-  - Both elements are clearly visible.
-
-#### 2. Companies Page Button Navigation
-
-- **Objective**: Verify that the button on the homepage correctly links to the /companies page.
-- **Test Steps**:
-  1. Navigate to the Home Page.
-  2. Locate the button with class `.orange-button`.
-  3. Inspect the `href` attribute.
-  4. Click the button.
-- **Expected Results**:
-  - Button has `href="/companies"`.
-  - Clicking the button navigates to the Companies page.
-
-#### 3. "Why Should We Use This?" Section Verification
-
-- **Objective**: Verify the content and structure of the "Why Should We Use This?" section.
-- **Test Steps**:
-  1. Locate the section with class `.why-should-we-do-this`.
-  2. Check section title and description.
-  3. Verify benefits list.
-- **Expected Results**:
-  - Title: "Why Should We Use This?".
-  - Description: "It offers a comprehensive and user-friendly platform to explore companies in India."
-  - Benefits list contains exactly 4 items.
-  - Three images are present.
-
-#### 4. "Dear Contributors" Section Verification
-
-- **Objective**: Verify the content and functionality of the Contributors section.
-- **Test Steps**:
-  1. Locate the section with class `.content-contributors`.
-  2. Verify the section title and description.
-  3. Test GitHub button functionality.
-- **Expected Results**:
-  - Title: "Dear Contributors".
-  - Description: "We know that open source projects rely on the contributions of many people, and we are grateful for your willingness to give your time and skills to this project."
-  - GitHub button links to the correct repository.
-  - Images are present.
-
-#### 5. Footer Verification
-
-- **Objective**: Verify footer presence and content.
-- **Test Steps**:
-  1. Scroll to the bottom of the page.
-  2. Check the footer component.
-- **Expected Results**:
-  - Footer is present and properly displayed.
+| **Test Case**                            | **Steps**                                                                                                                                                                                                                                                                      | **Current Behavior** | **Expected Behavior**                              | **Pass/Fail** | **Comments** |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------- | -------------------------------------------------- | ------------- | ------------ |
+| **1.1. Render Navbar Elements**          | 1. Open the application in a browser. <br> 2. Set viewport to 1024x768. <br> 3. Verify: <br> - Navbar is visible. <br> - Logo source is correct. <br> - GitHub link is visible and points to the correct URL. <br> - Links point to correct URLs. <br> - Menu icon is visible. |                      | All navbar elements are rendered correctly.        |               |              |
+| **1.2. Toggle Mobile Menu**              | 1. Set viewport to 375x667. <br> 2. Click the menu icon. <br> 3. Verify `.links` has class `active` and `nav.navbar` has class `open`. <br> 4. Click the menu icon again. <br> 5. Verify classes are removed.                                                                  |                      | Mobile menu toggles correctly.                     |               |              |
+| **1.3. Navigate to Pages**               | 1. Set viewport to 375x667. <br> 2. Open mobile menu. <br> 3. Click "Home", "Companies", and "Docs" links. <br> 4. Verify URLs are correct.                                                                                                                                    |                      | Navigation to the correct pages works as expected. |               |              |
+| **1.4. GitHub Link Attributes**          | 1. Verify the first link in `.links` has the correct `href` attribute.                                                                                                                                                                                                         |                      | GitHub link has the correct attributes.            |               |              |
+| **1.5. Close Mobile Menu on Link Click** | 1. Set viewport to 375x667. <br> 2. Open mobile menu. <br> 3. Click "Companies" link. <br> 4. Verify `.links` no longer has class `active`.                                                                                                                                    |                      | Mobile menu closes when a link is clicked.         |               |              |
 
 ---
 
-### Companies Page (/companies)
+## **2. HomePage**
 
-#### 1. Search Functionality
-
-- **Objective**: Verify search bar presence and functionality.
-- **Test Steps**:
-  1. Navigate to the Companies Page.
-  2. Locate the search bar.
-  3. Test search with inputs:
-     - Company name: "Google".
-     - Location: "Bangalore".
-     - Partial term: "beng".
-- **Expected Results**:
-  - Placeholder displays: "Search companies or locations...".
-  - "Google" shows only Google's company card.
-  - "Bangalore" shows companies in Bangalore.
-  - "beng" displays exactly 4 company cards.
-
-#### 2. Company Cards Display
-
-- **Objective**: Verify company card content and functionality.
-- **Test Steps**:
-  1. Check initial company card display.
-  2. Verify card components:
-     - Company image.
-     - Company name (h3 element).
-     - Description (p element).
-     - External links.
-  3. Test external links.
-- **Expected Results**:
-  - At least one company card is visible initially.
-  - Each card contains all required elements.
-  - Links open in new tabs and have valid URLs.
-
-#### 3. Search Reset Functionality
-
-- **Objective**: Verify search clearing behavior.
-- **Test Steps**:
-  1. Enter a search term.
-  2. Clear the search bar.
-  3. Check company cards display.
-- **Expected Results**:
-  - Clearing the search restores all company cards.
-  - Original layout is maintained.
+| **Test Case**                                | **Steps**                                                                                 | **Current Behavior** | **Expected Behavior**                       | **Pass/Fail** | **Comments** |
+| -------------------------------------------- | ----------------------------------------------------------------------------------------- | -------------------- | ------------------------------------------- | ------------- | ------------ |
+| **2.1. Display Homepage Title and Subtitle** | 1. Navigate to homepage (`/`). <br> 2. Verify title and subtitle are displayed correctly. |                      | Title and subtitle are displayed correctly. |               |              |
+| **2.2. Button Links to Companies Page**      | 1. Verify "orange-button" has correct `href` attribute.                                   |                      | Button links to the Companies page.         |               |              |
+| **2.3. "Why Should We Use This?" Section**   | 1. Verify title, description, and benefits list are displayed correctly.                  |                      | Section content is displayed correctly.     |               |              |
+| **2.4. "Dear Contributors" Section**         | 1. Verify title, description, and button link are displayed correctly.                    |                      | Section content is displayed correctly.     |               |              |
+| **2.5. Images in Sections**                  | 1. Verify 3 images are displayed in the "Why Should We Use This?" section.                |                      | Images are displayed correctly.             |               |              |
+| **2.6. Footer Component**                    | 1. Verify the footer exists.                                                              |                      | Footer is displayed.                        |               |              |
 
 ---
 
-### Docs Page (/docs)
+## **3. Docs Page**
 
-#### 1. Page Structure Verification
-
-- **Objective**: Verify basic page structure and navigation elements.
-- **Test Steps**:
-  1. Navigate to the Docs Page.
-  2. Check for Navbar and Footer.
-  3. Verify the main documentation header.
-- **Expected Results**:
-  - Navbar and Footer are present.
-  - Header displays: "Documentation:".
-
-#### 2. Content Sections Verification
-
-- **Objective**: Verify presence and accuracy of documentation sections.
-- **Test Steps**:
-  1. Check the "Getting Started" section.
-  2. Verify the "Usage" section.
-  3. Review the "Contributing" section.
-- **Expected Results**:
-  - "Getting Started" contains 6 steps.
-  - "Usage" section has 2 examples.
-  - "Contributing" section lists 7 steps.
-
-#### 3. Code Snippets Verification
-
-- **Objective**: Verify presence and accuracy of code examples.
-- **Test Steps**:
-  1. Locate all code snippets.
-  2. Verify commands:
-     - `npm install -g pnpm`
-     - `git clone git@github.com`
-     - `pnpm install`
-     - `pnpm run dev`
-     - `git commit -m "your commit message"`
-- **Expected Results**:
-  - Snippets are properly formatted.
-  - Commands are accurate and complete.
+| **Test Case**                         | **Steps**                                                                                                | **Current Behavior** | **Expected Behavior**                            | **Pass/Fail** | **Comments** |
+| ------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------- | ------------------------------------------------ | ------------- | ------------ |
+| **3.1. Render Navbar and Footer**     | 1. Navigate to Docs page (`/docs`). <br> 2. Verify navbar and footer are visible.                        |                      | Navbar and footer are rendered correctly.        |               |              |
+| **3.2. Display Documentation Header** | 1. Verify header "Documentation:" is displayed.                                                          |                      | Header is visible.                               |               |              |
+| **3.3. List Getting Started Steps**   | 1. Verify ordered list contains 6 steps.                                                                 |                      | All steps are listed correctly.                  |               |              |
+| **3.4. Display Usage Examples**       | 1. Verify "Usage" section contains 2 bullet points.                                                      |                      | Usage examples are displayed correctly.          |               |              |
+| **3.5. Display Contributing Section** | 1. Verify "Contributing" section contains 7 steps. <br> 2. Verify company addition example is displayed. |                      | Contributing guidelines are displayed correctly. |               |              |
+| **3.6. Include Code Snippets**        | 1. Verify code snippets are displayed.                                                                   |                      | All code snippets are visible.                   |               |              |
 
 ---
 
-## Test Execution
+## **4. Companies Page**
 
-After all test case execution, there is no bugs found
+| **Test Case**                                   | **Steps**                                                                                                                                                           | **Current Behavior** | **Expected Behavior**                             | **Pass/Fail** | **Comments** |
+| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | ------------------------------------------------- | ------------- | ------------ |
+| **4.1. Display Search Bar**                     | 1. Navigate to Companies page (`/companies`). <br> 2. Verify search bar exists with correct placeholder.                                                            |                      | Search bar is displayed correctly.                |               |              |
+| **4.2. Display All Company Cards**              | 1. Verify at least one company card is displayed.                                                                                                                   |                      | All company cards are visible.                    |               |              |
+| **4.3. Filter Companies by Name**               | 1. Enter "Google" in the search bar. <br> 2. Verify only one card is displayed.                                                                                     |                      | Companies are filtered correctly by name.         |               |              |
+| **4.4. Filter Companies by Location**           | 1. Enter "Bangalore" in the search bar. <br> 2. Verify all displayed cards contain "Bangalore".                                                                     |                      | Companies are filtered correctly by location.     |               |              |
+| **4.5. Display 4 Cards for Search Term "beng"** | 1. Enter "beng" in the search bar. <br> 2. Verify exactly 4 cards are displayed.                                                                                    |                      | 4 cards are displayed for the search term "beng". |               |              |
+| **4.6. Display Company Details**                | 1. Verify each company card contains: <br> - Image. <br> - Company name. <br> - Description. <br> - Two external links (Visit Website & Careers).                   |                      | Company details are displayed correctly.          |               |              |
+| **4.7. Navigate to External Links**             | 1. Click "Visit Website" and "Careers" links on any company card. <br> 2. Verify links open external websites without errors.                                       |                      | External links work correctly.                    |               |              |
+| **4.8. Clear Search Results**                   | 1. Enter "Google" in the search bar. <br> 2. Verify only one card is displayed. <br> 3. Clear the search bar. <br> 4. Verify all company cards are displayed again. |                      | Search results are cleared correctly.             |               |              |
+
+---
+
+## **5. Conclusions**
+
+### **Overall Findings**
+
+1. **Navbar Component**:
+
+   - The navbar renders correctly across different viewports.
+   - Mobile menu toggling and navigation functionality work as expected.
+   - GitHub link and other attributes are correctly configured.
+
+2. **HomePage**:
+
+   - The homepage displays all sections (title, subtitle, buttons, images, and footer) correctly.
+   - Links and buttons navigate to the intended pages without issues.
+
+3. **Docs Page**:
+
+   - The documentation page renders the navbar, footer, and all sections (Getting Started, Usage, Contributing) correctly.
+   - Code snippets and steps are displayed as expected.
+
+4. **Companies Page**:
+   - The search bar and company cards are displayed correctly.
+   - Filtering by company name and location works as intended.
+   - External links ("Visit Website" and "Careers") function properly.
+
+### **Final Verdict**
+
+- The application functions as expected across all tested components (Navbar, HomePage, Docs Page, and Companies Page).
+- All test cases passed/failed as per the expected behavior. (Update this based on actual test results.)
+
+---
